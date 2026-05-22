@@ -29,19 +29,20 @@ Unlike traditional sentiment analysis, this system performs **target-based stanc
 ---
 
 ## 🏗️ System Architecture
-YouTube URL
-↓
-Video ID Extraction
-↓
-Comment Retrieval (YouTube API)
-↓
-Transcript Retrieval + Summarization
-↓
-Target Extraction (LLM)
-↓
-Hybrid Stance Classification (NLI + LLM)
-↓
-Dashboard + CSV Export
+
+- YouTube URL  
+  ↓  
+- Video ID Extraction  
+  ↓  
+- Comment Retrieval (YouTube API)  
+  ↓  
+- Transcript Retrieval + Summarization  
+  ↓  
+- Target Extraction (LLM)  
+  ↓  
+- Hybrid Stance Classification (NLI + LLM)  
+  ↓  
+- Dashboard + CSV Export  
 
 
 ---
@@ -187,14 +188,15 @@ pip install -r requirements.txt
 
 # Run application
 streamlit run app.py
+```
 
-👨‍💻 Authors
+## 👨‍💻 Authors
 Dileep Angara
 
-📄 License
+## 📄 License
 
 This project is developed for academic purposes.
 
-⭐ Final Note
+## ⭐ Final Note
 
 This project demonstrates a real-world NLP system combining classical machine learning (NLI) with modern LLMs, achieving effective stance detection without task-specific training data.
