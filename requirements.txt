@@ -1,0 +1,9 @@
+groq
+python-dotenv
+youtube-transcript-api
+google-api-python-client
+transformers
+streamlit
+pandas
+torch
+torchvision
